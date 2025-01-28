@@ -1,9 +1,9 @@
-# **Jobly IT Job Scraper**  
+# Jobly IT Job Scraper  
 This Python script scrapes **IT job listings** from the Jobly website and saves the data into an **Excel file**. The script extracts details like **job title, company name, location, posting date, and company logo**.  
 
 ---
 
-## ** Features**  
+## Features  
 - Fetches **IT job listings** from [Jobly.fi](https://www.jobly.fi/)  
 - Extracts details: **Job Title, Company Name, Location, Posting Date, and Company Logo URL**  
 - Saves the data into an **Excel file** for easy analysis  
@@ -11,7 +11,7 @@ This Python script scrapes **IT job listings** from the Jobly website and saves 
 
 ---
 
-## ** Requirements**  
+## Requirements  
 To run this script, ensure you have the following Python libraries installed:  
 
 - `selenium`  
@@ -21,7 +21,7 @@ To run this script, ensure you have the following Python libraries installed:
 - `requests`  
 - `webdriver-manager`  
 
-### ** Install Dependencies**  
+### Install Dependencies  
 Use the following command to install all required libraries:  
 ```sh  
 pip install selenium beautifulsoup4 pandas openpyxl requests webdriver-manager  
@@ -29,24 +29,24 @@ pip install selenium beautifulsoup4 pandas openpyxl requests webdriver-manager
 
 ---
 
-## ** How to Use**  
+## How to Use  
 
-### **1️ Download the Script**  
+### 1️ Download the Script  
 Clone or download the `jobly_scraper.py` file to your local machine.  
 
-### **2️ Run the Script**  
+### 2️ Run the Script 
 Execute the script using Python:  
 ```sh  
 python jobly_scraper.py  
 ```
 
-### **3️ If the script runs successfully, it will:**  
+### 3️ If the script runs successfully, it will:  
 - **Print job details** in the terminal  
 - **Save the data** to an Excel file named **IT_job_listings.xlsx** in the current directory  
 
 ---
 
-## ** Script Behavior**  
+##  Script Behavior  
 1. Sends a **request** to the Jobly **IT jobs** page.  
 2. Parses the **HTML content** of the page using **BeautifulSoup**.  
 3. Extracts **job details** for all listings, including:  
@@ -59,9 +59,9 @@ python jobly_scraper.py
 
 ---
 
-## ** Output**  
+##  Output  
 
-### ** Console Output Example**  
+###  Console Output Example  
 ```
 Job Title: Software Developer  
 Company: Google  
@@ -78,7 +78,7 @@ Company Logo: https://www.jobly.fi/logo_microsoft.png
 Data saved to IT_job_listings.xlsx  
 ```
 
-### ** Excel File (`IT_job_listings.xlsx`)**  
+### Excel File (`IT_job_listings.xlsx`)  
 An Excel file will be created with the following columns:  
 - **Job Title**  
 - **Company Name**  
@@ -88,19 +88,19 @@ An Excel file will be created with the following columns:
 
 ---
 
-## ** Error Handling**  
+## Error Handling  
 - If the script **fails to load Jobly**, it prints an error message.  
 - Missing data fields are **handled gracefully** with `None` values.  
 - If a company **doesn’t have a logo**, the script **leaves it blank**.  
 
 ---
 
-## ** Limitations**  
+## Limitations  
 - The script scrapes **all IT job listings** from the **first page** of Jobly.  
 - It depends on the **current HTML structure** of Jobly.fi. If the website changes, the script might need updates.  
 - Ensure compliance with **Jobly's terms of service** regarding web scraping.  
 
 ---
 
-## ** End**  
+## End  
 Feel free to **use and modify** this script as needed! 🚀
