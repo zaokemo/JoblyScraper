@@ -102,5 +102,6 @@ An Excel file will be created with the following columns:
 
 ---
 
-## End  
-Feel free to **use and modify** this script as needed! 🚀
+## Example of the excel 
+![image](https://github.com/user-attachments/assets/6f4e2ac3-6ef7-40ad-ac61-feee71030cbd)
+
